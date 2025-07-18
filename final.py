@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.io import wavfile
 from scipy import signal
 # Read the audio file
-rate, audio = wavfile.read(r"C:\Users\AMRUTHA R\OneDrive\Documents\sem 3 study materials n ppt\dsp lab\project\morse audios\A_Z.wav")
+rate, audio = wavfile.read(r"dataset path")
 
 # Bandpass filter parameters
 lowcut =100  # Set the lower cutoff frequency
